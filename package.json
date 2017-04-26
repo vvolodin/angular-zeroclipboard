@@ -1,5 +1,5 @@
 {
-  "name": "angular-zeroclipboard",
+  "name": "angular-zeroclipboard-webpack",
   "version": "0.8.0",
   "description": "Angular Wrapper for ZeroClipboard",
   "main": "src/angular-zeroclipboard.js",
@@ -9,18 +9,22 @@
   ],
   "contributors": [
     "Leigh Zhu",
-    "Stan Bondi"
+    "Stan Bondi",
+    "Vladimir Volodin"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lisposter/angular-zeroclipboard.git"
+    "url": "git+https://github.com/vvolodin/angular-zeroclipboard.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lisposter/angular-zeroclipboard/issues"
+    "url": "https://github.com/vvolodin/angular-zeroclipboard/issues"
   },
-  "homepage": "https://github.com/lisposter/angular-zeroclipboard#readme",
+  "homepage": "https://github.com/vvolodin/angular-zeroclipboard#readme",
   "devDependencies": {
     "uglify-js": "^2.4.24"
+  },
+  "dependencies": {
+    "zeroclipboard": "^2.3.0"
   }
 }

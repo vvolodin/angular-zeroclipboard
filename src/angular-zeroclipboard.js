@@ -1,4 +1,6 @@
-angular.module('zeroclipboard', [])
+require('zeroclipboard');
+
+export default angular.module('zeroclipboard', [])
   .provider('uiZeroclipConfig', function() {
 
     // default configs
@@ -103,4 +105,4 @@ angular.module('zeroclipboard', [])
         }
       };
     }
-  ]);
+  ]).name;
