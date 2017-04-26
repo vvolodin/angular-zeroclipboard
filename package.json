@@ -1,6 +1,6 @@
 {
   "name": "angular-zeroclipboard-webpack",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Angular Wrapper for ZeroClipboard",
   "main": "src/angular-zeroclipboard.js",
   "keywords": [

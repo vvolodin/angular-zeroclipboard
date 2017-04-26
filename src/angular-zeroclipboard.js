@@ -1,4 +1,4 @@
-require('zeroclipboard');
+const zeroclip = require('zeroclipboard');
 
 export default angular.module('zeroclipboard', [])
   .provider('uiZeroclipConfig', function() {
@@ -38,7 +38,7 @@ export default angular.module('zeroclipboard', [])
     function($document, $window, uiZeroclipConfig) {
 
       var zeroclipConfig = uiZeroclipConfig.zeroclipConfig || {};
-      var ZeroClipboard = $window.ZeroClipboard;
+      var ZeroClipboard = zeroclip;
 
       return {
         scope: {
